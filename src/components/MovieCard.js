@@ -27,9 +27,9 @@ function MovieCard({
           backgroundImage: `url(https://image.tmdb.org/t/p/original/${poster_path})`,
         }}
       >
-        <div className="m-4 text-2xl mt-2 text-white/70 w-[20px] flex float-right cursor-pointer">
+        {/* <div className="m-4 text-2xl mt-2 text-white/70 w-[20px] flex float-right cursor-pointer">
           <i class="fa-solid fa-circle-info "></i>
-        </div>
+        </div> */}
 
         <div className="absolute inset-0 flex items-end">
           <div className="text-white text-lg md:text-xl lg:text-2xl bg-gray-900/60 w-full text-center items-center p-2 rounded-b-xl">
