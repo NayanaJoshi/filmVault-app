@@ -54,8 +54,10 @@ function Movies({
           value={searchMovie}
         />
       </div>
-      <div className="flex justify-center items-center text-xl text-white   p-1 my-8   ">
-        Click "&#128525;" to Add your Favorite Movies to Watchlist!
+      <div className=" text-xl text-center px-6 text-white mb-2 ">
+        <div className="border bg-purple-950 text-sm rounded ">
+          Click "&#128525;" to Add Movies to Watchlist!
+        </div>
       </div>
       <div className="p-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
